@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-family:calibri;
+  font-size: 19px;
+  color:brown; 
+}
+
+.topo {
+   background-color:bisque ;
+   padding: 30px;
+}
+
+.topo a {
+  color: brown;
+  text-decoration: none;
+} 
+
+.rodape { 
+   background-color: bisque;
+  padding: 30px;
+  margin-bottom: 30px;
+} 
+
+.materia {
+  background-color: bisque;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+.menu a:hover{
+color:black ;
+}
+
+.menu li{
+  margin-left: 20px;
+}
+
+.botao {
+  background-color:brown;
+  color: bisque;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.rodape {
+  background-color:bisque;
+  color:brown;
+  padding: 30px;
+}
+
+.navegacao{
+  display: flex;
+}
+main{
+  padding: 30px;
+}
+
