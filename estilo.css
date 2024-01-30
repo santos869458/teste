@@ -6,7 +6,7 @@ body {
   background-color: aliceblue;
   font-family:calibri;
   font-size: 19px;
-  color:brown; 
+  color: red; 
 }
 
 .topo {
@@ -23,12 +23,27 @@ body {
    background-color: bisque;
   padding: 30px;
   margin-bottom: 30px;
+  text-align: center;
 } 
 
 .materia {
   background-color: bisque;
   padding: 30px;
   margin-bottom: 30px;
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.materia img {
+  width: 600px;
+}
+
+.materia h1 {
+margin-bottom: 10px;
+font-size: 30px;
+color: brown;
 }
 
 .menu{
@@ -41,6 +56,19 @@ body {
 color:black ;
 }
 
+.titulo{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.texto{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color:brown;
+}
+
 .menu li{
   margin-left: 20px;
 }
@@ -50,17 +78,13 @@ color:black ;
   color: bisque;
   text-decoration: none;
   padding: 10px;
-}
-
-.rodape {
-  background-color:bisque;
-  color:brown;
-  padding: 30px;
+  display: inline-block;
 }
 
 .navegacao{
   display: flex;
 }
+
 main{
   padding: 30px;
 }
